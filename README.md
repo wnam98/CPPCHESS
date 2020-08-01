@@ -1,2 +1,2 @@
 # CPPCHESS
-GUI Chess game, no OOP
+Using the SFML framework for GUI
