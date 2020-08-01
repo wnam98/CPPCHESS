@@ -253,6 +253,12 @@ CPPChess_BINARY_DIR:STATIC=C:/Users/aircr/OneDrive/Desktop/College/CPPCHESS/cmak
 //Value Computed by CMake
 CPPChess_SOURCE_DIR:STATIC=C:/Users/aircr/OneDrive/Desktop/College/CPPCHESS
 
+//The directory containing a CMake configuration file for SFML.
+SFML_DIR:PATH=SFML_DIR-NOTFOUND
+
+//Path to a file.
+SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries

@@ -57,6 +57,7 @@ include CMakeFiles/CPPChess.dir/progress.make
 include CMakeFiles/CPPChess.dir/flags.make
 
 CMakeFiles/CPPChess.dir/main.cpp.obj: CMakeFiles/CPPChess.dir/flags.make
+CMakeFiles/CPPChess.dir/main.cpp.obj: CMakeFiles/CPPChess.dir/includes_CXX.rsp
 CMakeFiles/CPPChess.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\aircr\OneDrive\Desktop\College\CPPCHESS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPPChess.dir/main.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPPChess.dir\main.cpp.obj -c C:\Users\aircr\OneDrive\Desktop\College\CPPCHESS\main.cpp
@@ -78,6 +79,10 @@ CPPChess_EXTERNAL_OBJECTS =
 
 CPPChess.exe: CMakeFiles/CPPChess.dir/main.cpp.obj
 CPPChess.exe: CMakeFiles/CPPChess.dir/build.make
+CPPChess.exe: C:/Program\ Files\ (x86)/SFML-2.5.1/lib/libsfml-graphics-d.a
+CPPChess.exe: C:/Program\ Files\ (x86)/SFML-2.5.1/lib/libsfml-audio-d.a
+CPPChess.exe: C:/Program\ Files\ (x86)/SFML-2.5.1/lib/libsfml-window-d.a
+CPPChess.exe: C:/Program\ Files\ (x86)/SFML-2.5.1/lib/libsfml-system-d.a
 CPPChess.exe: CMakeFiles/CPPChess.dir/linklibs.rsp
 CPPChess.exe: CMakeFiles/CPPChess.dir/objects1.rsp
 CPPChess.exe: CMakeFiles/CPPChess.dir/link.txt

@@ -9,7 +9,7 @@ int main()
     RenderWindow window(VideoMode(453, 453), "Chess");
     Texture tx1;
     tx1.loadFromFile("images/figures.png");
-    Sprite s(t1);
+    Sprite s(tx1);
 
     while(window.isOpen())
     {
